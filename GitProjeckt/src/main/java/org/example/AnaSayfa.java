@@ -8,6 +8,7 @@ public class AnaSayfa implements ActionListener {
     JFrame frame = new JFrame();
     JButton button = new JButton("Profili Göster");
 
+
     public AnaSayfa(){
         button.addActionListener(this);
         button.setBounds(200,200,100,50);
