@@ -10,9 +10,11 @@ public class AnaSayfa implements ActionListener {
 
 
     public AnaSayfa(){
+
         button.addActionListener(this);
         button.setBounds(200,200,200,50);
         frame.add(button);
+
 
         frame.setSize(600,500);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
